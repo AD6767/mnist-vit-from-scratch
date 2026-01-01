@@ -29,13 +29,13 @@ What it does:
 
 ### Results
 Training accuracy (example run):
-- Epoch 1: 76.89%
-- Epoch 2: 93.10%
-- Epoch 3: 94.80%
-- Epoch 4: 95.58%
-- Epoch 5: 96.20%
+- Epoch 1: 80.97%
+- Epoch 2: 94.18%
+- Epoch 3: 95.61%
+- Epoch 4: 96.37%
+- Epoch 5: 96.75%
 
-Validation accuracy (computed once at the end): `95.74%`
+Validation accuracy (computed once at the end): `96.72%`
 
 ### Visualization
 Example batch predictions saved from `visualize()`:

@@ -49,8 +49,8 @@ class TransformerEncoder(nn.Module):
         residual1 = x
         x = self.layer_norm1(x)
         x = self.multi_head_attn(x, x, x)[0] # input: pass (Q, K, V) output: get first location
-        residual2 = x
         x = x + residual1 # multi-head attn + residual
+        residual2 = x
         x = self.layer_norm2(x)
         x = self.mlp(x)
         x = x + residual2
